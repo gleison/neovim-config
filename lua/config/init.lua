@@ -20,6 +20,13 @@ return require('packer').startup(function(use)
             vim.cmd('colorscheme catppuccin')
         end
     })
+    -- tree
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons',
+        },
+    }
     -- telescope
     use {
         'nvim-telescope/telescope.nvim',

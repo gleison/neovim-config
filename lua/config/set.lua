@@ -31,3 +31,10 @@ vim.opt.updatetime = 50
 
 -- Show 120 colum limit
 vim.opt.colorcolumn = "120"
+
+-- disable netrw to use nvim tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
