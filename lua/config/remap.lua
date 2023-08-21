@@ -4,3 +4,9 @@ vim.keymap.set('n', '<leader>q', vim.cmd.Ex)
 vim.keymap.set('n', '<leader>n', vim.cmd.bn)
 vim.keymap.set('n', '<leader>p', vim.cmd.bp)
 
+-- LSP remaps
+vim.keymap.set('n', '<leader>k', vim.lsp.buf.hover, {})
+vim.keymap.set('n', '<leader>K', vim.lsp.buf.signature_help, {})
+vim.keymap.set('n', '<leader>t', vim.lsp.buf.code_action, {})
+vim.keymap.set('v', '<leader>t', vim.lsp.buf.code_action, {})
+
