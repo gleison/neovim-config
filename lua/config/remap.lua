@@ -10,3 +10,9 @@ vim.keymap.set('n', '<leader>K', vim.lsp.buf.signature_help, {})
 vim.keymap.set('n', '<leader>t', vim.lsp.buf.code_action, {})
 vim.keymap.set('v', '<leader>t', vim.lsp.buf.code_action, {})
 
+-- Telescope remaps
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>bf', builtin.buffers, {})
+vim.keymap.set('n', '<leader>O', builtin.lsp_document_symbols, {})
+
