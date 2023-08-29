@@ -18,5 +18,6 @@ lsp.configure('jdtls', {
   },
 })
 
+require('lspconfig').lua_ls.setup({})
 lsp.setup()
 
