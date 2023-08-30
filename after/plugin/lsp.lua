@@ -41,6 +41,14 @@ lsp.configure('jdtls', {
   },
 })
 
+lsp.configure('lua_ls', {
+  settings = {
+    Lua = {
+      diagnostics = { globals = {'vim'} },
+    },
+  },
+})
+
 require('lspconfig').lua_ls.setup({})
 lsp.setup()
 
