@@ -31,3 +31,9 @@ vim.opt.updatetime = 50
 
 -- Show 120 colum limit
 vim.opt.colorcolumn = "120"
+
+-- Netrw configuration
+vim.g.netrw_banner = 0
+vim.g.netrw_liststyle = 3
+vim.g.newrw_keepdir = 0
+
