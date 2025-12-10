@@ -2,6 +2,12 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+-- Always shows sign column
+vim.o.signcolumn = 'yes'
+
+--Border
+vim.o.winborder = 'rounded'
+
 -- Identation
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
