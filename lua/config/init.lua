@@ -11,8 +11,6 @@ vim.pack.add({
 
 vim.cmd('colorscheme rose-pine')
 
-vim.lsp.enable('lua_ls')
-
 require('mason').setup({
     ui = { icons = {
         package_installed = '✓',
@@ -24,3 +22,5 @@ require('mason').setup({
 require('mason-lspconfig').setup({
     ensure_installed = { 'lua_ls' }
 })
+
+vim.lsp.enable('lua_ls')
