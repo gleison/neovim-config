@@ -43,3 +43,5 @@ vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
 vim.g.newrw_keepdir = 0
 
+-- Include subdirectories in search
+vim.opt.path:append("**")
