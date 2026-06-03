@@ -6,7 +6,7 @@ local os_name = vim.loop.os_uname().sysname
 
 local config = {
     cmd = {
-        "java",
+        "java21",
         "-Declipse.application=org.eclipse.jdt.ls.core.id1",
         "-Dosgi.bundles.defaultStartLevel=4",
         "-Declipse.product=org.eclipse.jdt.ls.core.product",
