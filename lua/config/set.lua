@@ -1,5 +1,6 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
+vim.o.signcolumn = 'yes'
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
@@ -27,3 +28,4 @@ vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
 vim.g.newrw_keepdir = 0
 
+vim.opt.path:append("**")

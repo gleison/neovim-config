@@ -2,7 +2,7 @@ return {
     'mason-org/mason-lspconfig.nvim',
     opts = {
         ensure_installed = {
-            'lua_ls'
+            'lua_ls', 'jdtls'
          }
     },
     dependencies =  {
@@ -19,8 +19,5 @@ return {
             }
         },
         'neovim/nvim-lspconfig'
-    },
-    config = function()
-        vim.lsp.enable('lua_ls')
-    end
+    }
 }
