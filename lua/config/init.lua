@@ -17,6 +17,7 @@ require('lazy').setup({
 
 require('config.remap')
 require('config.set')
+require('config.autocmd')
 
 vim.lsp.enable('lua_ls')
 vim.lsp.enable('jdtls')
