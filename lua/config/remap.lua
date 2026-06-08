@@ -8,3 +8,5 @@ vim.keymap.set('n', '<leader>p', vim.cmd.bp)
 -- Close a buffer
 vim.keymap.set('n', '<leader>q', vim.cmd.bd)
 
+-- Clear highlight search with ESC
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
